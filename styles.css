@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+/* Global Elements Set-up */
 * { 
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ a:hover {
   color: #6633ff;
 }
 
-/* Section Styles */
+/* Nav */
 
 .main-nav {
   width: 100%;
@@ -55,6 +55,8 @@ a:hover {
   color: white
 }
 
+/* Introduction */
+
 header {
   text-align: center;
   background: url('3.jpg') no-repeat top center ;
@@ -76,6 +78,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,6 +91,9 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
+/* Goals Section */
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -119,6 +125,8 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+/* Footer Styles */
 
 footer {
   width: 100%;
